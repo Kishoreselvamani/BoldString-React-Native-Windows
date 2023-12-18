@@ -13,11 +13,11 @@ const BoldText: React.FC<BoldTextProps> = ({ children }) => (
   <Text style={{ fontWeight: 'bold' }}>{children}</Text>
 );
 
-const ItalicText: React.FC<ItalicTextProps> = ({children}) => {
-  return(
-  <Text style={{fontStyle:'italic'}}>{children} </Text>
-  )
-};
+// const ItalicText: React.FC<ItalicTextProps> = ({children}) => {
+//   return(
+//   <Text style={{fontStyle:'italic'}}>{children} </Text>
+//   )
+// };
 
 const App= () => {
   return (
@@ -27,9 +27,9 @@ const App= () => {
         <BoldText> Hello HPX!! </BoldText>
         
       </Text>
-      <Text>
+      {/* <Text>
         <ItalicText> Hello HPX GUYS</ItalicText>
-      </Text>
+      </Text> */}
     </View>
   );
 };
